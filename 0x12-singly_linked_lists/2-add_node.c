@@ -30,5 +30,5 @@ new_head->len = _strlen(new_head->str);
 
 new_head->next = (*head);
 (*head) = new_head;
-return (new_head);
+return (*head);
 }
